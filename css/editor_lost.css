@@ -1,0 +1,170 @@
+html,body{
+    width: 100%;
+    height:100%;
+    background-color: #eee;
+}
+header{
+    width: auto;
+    height:5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #fff;
+
+}
+.h_l{
+    line-height: 5rem;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.pet_head{
+    width: 3.5rem;
+    height:3.5rem;
+    float: right;
+    border: 1px solid #ccc;
+    border-radius:50%;
+    margin-top: .75rem;
+    margin-left: 3rem;
+    background-color: #ccc;
+    text-align: center;
+}
+.pet_head>img{
+    width: 90%;
+    margin: 0 auto;
+}
+.pet_detail{
+    width: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 9rem;
+    background-color: #fff;
+    margin-top: 1rem;
+}
+.pet_detail>ul li{
+   border-bottom: 1px solid #ccc;
+    height:3rem;
+    line-height: 3rem;
+    position: relative;
+}
+.pet_detail>ul li:last-child{
+    border: none;
+}
+.lable{
+    display: inline-block;
+    width: 8px;
+    height:12px;
+    position: absolute;
+    right:0;
+    top:1.2rem;
+    background: url('../image/editor/tableArrow.png') no-repeat center center;
+    background-size: cover;
+}
+.type,.name{
+    display: inline-block;
+    line-height: 3rem;
+}
+.name{
+    float: right;
+    margin-right: 1rem;
+}
+.chose{
+    position: absolute;
+    left: 3rem;
+    right: 3rem;
+    height: 2rem;
+    top:.5rem;
+    width: 70%;
+}
+.hidden{
+    display: none;
+}
+.color{
+    background-color: blueviolet !important;
+}
+.pet_image{
+    margin-top: 1rem;
+    width: auto;
+    padding: 1rem;
+    min-height: 12rem;
+    background-color: #fff;
+    position: relative;
+}
+.note{
+    width: 90%;
+    text-align: center;
+    position: absolute;
+    bottom: 1rem;
+    color: #cccccc;
+}
+.pi_exmple{
+    width: 6rem;
+    height:6rem;
+    border: 1px dashed #ccc;
+}
+.lost_info{
+    height: 6rem !important;
+}
+.other_info{
+    width: auto;
+    padding: 1rem;
+    min-height: 6rem;
+    background-color: #fff;
+    margin-top: 1rem;
+}
+.other_title>span{
+    display: inline-block;
+}
+.other_title>span:last-child{
+    float: right;
+}
+.lable_circle{
+    /*width: 1.5rem;*/
+    height:1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 1rem;
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+}
+.description {
+    width: auto;
+    padding: 1rem;
+    background-color: #fff;
+    margin-top: 1rem;
+    position: relative;
+}
+.textarea{
+    width: 100%;
+    min-height: 8rem;
+    border: none;
+    outline: none;
+    -webkit-user-modify: read-write-plaintext-only;
+}
+.host_phone{
+    height:3rem !important;
+}
+.btn_area{
+    width: 100%;
+    height:2.5rem;
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+.btn{
+    position: absolute;
+    top:0;
+    left: 1rem;
+    right:1rem;
+    border: 1px solid;
+    height:inherit;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    line-height: 2.5rem;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>编辑丢失信息</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection"content="telephone=no, email=no" />
+    <link href="css/lib/base.css" rel="stylesheet" type="text/css">
+    <link href="css/editor_lost.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header class="clearfix">
+        <div class="h_l">寻找</div>
+        <div class=" pet_head "><img src="image/editor/cat.png"></div>
+        <div class=" pet_head color"><img src="image/editor/dog.png"></div>
+    </header>
+    <section class="pet_detail">
+         <ul>
+             <li class="clearfix">
+                 <span class="type">品种</span>
+                 <span class="name ">泰迪</span>
+                 <span class="lable"></span>
+                 <select class="chose hidden">
+                     <option>泰迪</option>
+                     <option>泰迪2</option>
+                     <option>泰迪3</option>
+                 </select>
+             </li>
+             <li class="clearfix">
+                 <span class="type">毛色</span>
+                 <span class="name">棕色</span>
+                 <span class="lable"></span>
+                 <select class="chose hidden">
+                     <option>棕色</option>
+                     <option>棕色2</option>
+                     <option>棕色3</option>
+                 </select>
+             </li>
+             <li class="clearfix">
+                 <span class="type">体长</span>
+                 <span class="name">110cm</span>
+                 <span class="lable"></span>
+                 <select class="chose hidden">
+                     <option>110cm</option>
+                     <option>120cm</option>
+                     <option>130cm</option>
+                 </select>
+             </li>
+         </ul>
+    </section>
+
+    <section class="pet_image">
+        <div class="pi_exmple"></div>
+        <div></div>
+        <div></div>
+        <p class="note">添加头部特写和全身照片更有利于寻找宠物哦!</p>
+    </section>
+    <section class="lost_info pet_detail">
+        <ul>
+            <li class="clearfix">
+                <span class="type">丢失时间</span>
+                <span class="name ">2016-04-05 12:00</span>
+                <span class="lable"></span>
+            </li>
+            <li class="clearfix">
+                <span class="type">丢失地点</span>
+                <span class="name">顾村公园 正大广场</span>
+                <span class="lable"></span>
+            </li>
+
+        </ul>
+    </section>
+    <section class="other_info">
+        <div class="other_title clearfix">
+            <span>其他信息</span>
+            <span>添加其他标签有助于信息匹配</span>
+        </div>
+        <span class="lable_circle">公</span>
+        <span class="lable_circle">已绝育</span>
+        <span class="lable_circle">有项圈</span>
+        <span class="lable_circle">活泼</span>
+        <span class="lable_circle">哈哈哈哈</span>
+    </section>
+    <section class="description">
+        <p>描述</p>
+        <textarea class="textarea" placeholder="请输入描述" ></textarea>
+    </section>
+    <section class="pet_detail host_phone">
+        <ul>
+            <li class="clearfix">
+                <span class="type">联系电话</span>
+                <span class="name ">1325998176</span>
+                <span class="lable"></span>
+            </li>
+        </ul>
+    </section>
+    <div class="btn_area">
+        <div class="btn">发布</div>
+    </div>
+    <div style="height: 100%;width: 100%"></div>
+<script src="js/lib/node_modules/jquery/dist/jquery.min.js"></script>
+<script src="js/editor_lost.js"></script>
+</body>
+</html>
