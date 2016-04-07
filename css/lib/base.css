@@ -24,3 +24,9 @@ body{
     visibility: hidden;
 }
 
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
