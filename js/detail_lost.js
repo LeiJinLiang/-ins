@@ -8,3 +8,7 @@ var mySwiper = new Swiper('.vibanner', {
     pagination : '.swiper-pagination',
     paginationClickable :true
 })
+$("main").on('scroll', function (e) {
+    e.preventDefault();
+    console.log(1);
+});
