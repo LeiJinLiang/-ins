@@ -2,18 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e53ebf7-1b41-4304-9bc5-fe12960a3da3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/editor/petLostLocation@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/editor/petLostStatEye@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/editor/petLostStatShare@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/lib/lrz.mobile.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/main/filterArrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/main/filterArrow@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/main/filterArrow@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/main/navIconBell.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/main/navIconBell@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/main/navIconBell@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/main/navIconCompose.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/main/navIconCompose@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/main/navIconCompose@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/main/petLostLocation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/main/petLostLocation@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/main/petLostLocation@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/main/petLostStatComment.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/main/petLostStatComment@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/main/petLostStatComment@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/main/petLostStatEye.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/main/petLostStatEye@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/main/petLostStatEye@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/main/petLostTime.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/main/petLostTime@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/main/petLostTime@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/main/petLostUrgent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/main/petLostUrgent@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/main/petLostUrgent@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/main/rectangle480Oval52BitmapGroup.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/main/rectangle480Oval52BitmapGroup@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/main/rectangle480Oval52BitmapGroup@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/main/tabIconPet.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/main/tabIconPet@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/main/tabIconPet@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/main/tabIconProfile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/main/tabIconProfile@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/main/tabIconProfile@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/pet_lost_main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/pet_lost_main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pet_lost_main.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/detail_lost.css" afterPath="$PROJECT_DIR$/css/detail_lost.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/detail_lost.html" afterPath="$PROJECT_DIR$/detail_lost.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/detail_lost.js" afterPath="$PROJECT_DIR$/js/detail_lost.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/editor_lost.js" afterPath="$PROJECT_DIR$/js/editor_lost.js" />
     </list>
     <ignored path="pet.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,38 +59,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="detail_lost.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/detail_lost.html">
+      <file leaf-file-name="pet_lost_main.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pet_lost_main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.458334">
-              <caret line="165" column="32" selection-start-line="165" selection-start-column="24" selection-end-line="165" selection-end-column="32" />
+            <state vertical-scroll-proportion="-19.208334">
+              <caret line="132" column="13" selection-start-line="132" selection-start-column="13" selection-end-line="132" selection-end-column="13" />
               <folding>
-                <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#article#0;n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#article#1;n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#article#2;n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#article#3;n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#1;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detail_lost.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/detail_lost.js">
+      <file leaf-file-name="pet_lost_main.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/pet_lost_main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="detail_lost.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/detail_lost.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3323442">
-              <caret line="304" column="9" selection-start-line="304" selection-start-column="9" selection-end-line="304" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.764622">
+              <caret line="114" column="21" selection-start-line="114" selection-start-column="21" selection-end-line="114" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -76,9 +87,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -102,6 +113,9 @@
         <option value="$PROJECT_DIR$/js/detail_lost.js" />
         <option value="$PROJECT_DIR$/detail_lost.html" />
         <option value="$PROJECT_DIR$/css/detail_lost.css" />
+        <option value="$PROJECT_DIR$/js/pet_lost_main.js" />
+        <option value="$PROJECT_DIR$/pet_lost_main.html" />
+        <option value="$PROJECT_DIR$/css/pet_lost_main.css" />
       </list>
     </option>
   </component>
@@ -140,6 +154,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -168,7 +183,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="image" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -185,14 +204,9 @@
               <option name="myItemId" value="image" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="editor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -205,13 +219,14 @@
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/image/main" />
       <recent name="$PROJECT_DIR$/image/editor" />
       <recent name="$PROJECT_DIR$/js/lib" />
       <recent name="$PROJECT_DIR$/image/eitor" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
@@ -279,9 +294,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18359375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.259375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -315,6 +330,29 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/detail_lost.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#article#0;n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#article#1;n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#article#2;n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#article#3;n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/detail_lost.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/detail_lost.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -496,13 +534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/editor_lost.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.70042795">
-          <caret line="161" column="0" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/image/editor/petLostDetailAddComment.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -515,24 +546,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/editor_lost.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/lib/lrz.mobile.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/editor_lost.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.875">
-          <caret line="15" column="29" selection-start-line="0" selection-start-column="0" selection-end-line="104" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -575,10 +592,57 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/image/main/rectangle480Oval52BitmapGroup.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/editor_lost.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.392157">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="60" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/pet_lost_main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/editor_lost.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51724136">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/detail_lost.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.6433666">
+          <caret line="121" column="1" selection-start-line="121" selection-start-column="1" selection-end-line="121" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editor_lost.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38516405">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/detail_lost.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.458334">
-          <caret line="165" column="32" selection-start-line="165" selection-start-column="24" selection-end-line="165" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.614836">
+          <caret line="166" column="35" selection-start-line="166" selection-start-column="35" selection-end-line="166" selection-end-column="35" />
           <folding>
             <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -590,10 +654,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/detail_lost.css">
+    <entry file="file://$PROJECT_DIR$/pet_lost_main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3323442">
-          <caret line="304" column="9" selection-start-line="304" selection-start-column="9" selection-end-line="304" selection-end-column="9" />
+        <state vertical-scroll-proportion="-19.208334">
+          <caret line="132" column="13" selection-start-line="132" selection-start-column="13" selection-end-line="132" selection-end-column="13" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/pet_lost_main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.764622">
+          <caret line="114" column="21" selection-start-line="114" selection-start-column="21" selection-end-line="114" selection-end-column="21" />
           <folding />
         </state>
       </provider>
