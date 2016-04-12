@@ -305,22 +305,14 @@ footer{
 .view_btn>span{
     display: inline-block;
     line-height: 3rem;
+    text-align: center;
     /*margin-left: .5rem;*/
 }
-.view_logo{
-    width: 25px;
-    height:18px;
-    background: url('../image/editor/petLostStatEye@2x.png') no-repeat center center;
-    background-size: cover;
-
-
+.view_logo>img,.write_logo>img{
+width: 65%;
 }
-.write_logo{
-    width: 18px;
-    height:18px;
-    background: url('../image/editor/petLostStatShare@2x.png') no-repeat center center;
-    background-size: cover;
-
+.view_logo,.write_logo{
+    line-height: 3.8rem !important;
 }
 .btn1_content{
     width: auto;

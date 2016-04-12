@@ -4,6 +4,7 @@ html,body{
     background-color: #E3E6EB;
 }
 header{
+    margin-top: 2.5rem;
     width: 100%;
     height:260px;
     background: url('../image/main/rectangle480Oval52BitmapGroup.png') no-repeat center center;
@@ -113,6 +114,7 @@ header{
     padding: 1rem;
     background-color: #fff;
     margin-top: 1rem;
+    padding-right: 0;
 }
 
 .lable_circle {
@@ -174,41 +176,89 @@ header{
     width: 100%;
 }
 .pet_lost_time,.pet_lost_loc,.pet_lost_info,.pet_poster_info{
-    width: 100%;
-    padding: .5rem 0rem .5rem 0rem;
-    height:1.5rem;
+    padding: .5rem 1rem .5rem 0rem;
+    height: 1.5rem;
     line-height: 1.5rem;
 }
 .pet_lost_time>span,.pet_lost_loc>span,.pet_lost_info>span,.pet_poster_info>span{
     display: block;
     line-height: 1.5rem;
     height: inherit;
+    text-align: center;
 }
-.time_logo{
-    width: 14px;
-    height:14px;
-    background: url("../image/main/petLostTime@2x.png") no-repeat center center;
-    background-size: cover;
-    margin-right: 2rem;
+.time_logo,.loc_logo{
+    text-align: left !important;
 }
-.loc_logo{
-    width: 14px;
-    height:14px;
-    background: url("../image/main/petLostLocation@2x.png") no-repeat center center;
-    background-size: cover;
-    margin-right: 2rem;
+.time_logo>img,.loc_logo>img{
+    width: 50%;
 }
-.write_logo{
-    width: 14px;
-    height:14px;
-    background: url("../image/main/petLostStatComment@2x.png") no-repeat center center;
-    background-size: cover;
-    margin: 0 .5rem 0 .5rem;
+.view_logo>img,.write_logo>img{
+    width: 65%;
 }
-.view_logo{
-    width: 14px;
-    height:14px;
-    background: url("../image/main/petLostStatEye@2x.png") no-repeat center center;
-    background-size: cover;
-    margin: 0 .5rem 0 .5rem;
+
+.image_left2,.image_right2{
+    width: 49.2%;
+}
+#container_two {
+    width: 100%;
+    position: relative;
+    background-color: red;
+    overflow: hidden;
+    float: right;
+    margin-bottom: 4%;
+}
+.placeholder_two:after {
+    content: '';
+    display: block;
+    margin-top: 100%;
+}
+.placeholder_two>img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.image_left3{
+    width: 100%;
+}
+.title{
+    width: 100%;
+    height:2.5rem;
+    position: fixed;
+    top:0;
+    z-index: 9999;
+}
+.b_title{
+    width: 100%;
+    height:2.5rem;
+    background-color: #fff;
+    position: relative;
+}
+.b_title>span{
+    display: block;
+    line-height: 2.5rem;
+    text-align: center;
+}
+.b_title>span:nth-child(2){
+    position: absolute;
+    left: 40px;
+    right: 32px;
+    text-align: center;
+    line-height: 2.5rem;
+    bottom: 0;
+}
+.last_span,.first_span{
+    line-height: 3.5rem;
+    text-align: center;
+}
+.b_title>span>img,.detail_lost,.lost_msg{
+    width: 50%;
+}
+.b_title>span:first-child{
+    line-height: 3.5rem !important;
+}
+.pet_poster_info{
+    border-top:1px solid #ccc ;
+}
+.pet_image,.pet_lost_time{
+    padding-right: 1rem;
 }

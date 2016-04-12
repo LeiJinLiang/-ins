@@ -3,7 +3,7 @@
  */
 $('.part1').find('li').on('click', function () {
    $(this).find('.chose').removeClass('hidden');
-   $(this).find('.name').addClass('hidden');
+    $(this).find('.name').addClass('hidden');
 });
 $('.part1').find('.chose').on('change', function () {
     $(this).addClass('hidden');
@@ -23,15 +23,39 @@ $('header').find('.pet_head').bind('click', function () {
    $(this).siblings('.pet_head').removeClass('color');
 });
 
-//
-//$.ajax({
-//    url:'https://dev-images.s3.cn-north-1.amazonaws.com.cn/NloryXcnfPYESiHiYTqP5oLuMg4cDBIa7Fik554NTVshZdwnG6plAgRPQOyltzU4Wd4JPswUEsWDjZbinhORzTreXT9tdfw3M5Tdm4iJdWdyCa6Ckor9zUhVIiIsd7TBpKfiyxnOpWNKWYx8Kec2JfUGKv5Fulmf0FGtFSszVg8o4lcYzNXaGM9uOUEpOrnKY6umBkdeFGdVyaPBESHUxoYpg9hONL1gOFHRhFHYwzpS2e8KDUcZtDwotiBnToM4.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20160408T033925Z&X-Amz-SignedHeaders=host&X-Amz-Expires=299&X-Amz-Credential=AKIAPY5UGCV5QSP37MRQ%2F20160408%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=2b07286433a4900db51b4826b2eb203740f414dc0539c9aff9da1f95edaeacf9',
-//    type:'put',
-//    success: function () {
-//
-//    },
-//    error: function () {
-//
-//    }
-//
-//})
+var main={
+    addImage: function () {
+        $('.trans_icon').click(function () {
+            $(this).removeClass('middle');
+            $(this).addClass('fl');
+            $("<div class='placeholder fl container mr append'><img src='http://ww1.sinaimg.cn/mw690/4c56dd36jw1f2lslkfi3uj22c03404qr.jpg'> <del class='del'><img src='image/h5/picDelete@2x.png'></del></div>").insertBefore('.trans_icon');
+            var len=$('.append').length;
+            if(len>8){
+                $(this).attr('disabled',true);
+            }else {
+                $(this).attr('disabled',false);
+            }
+        });
+    },
+    deleteImage: function () {
+        $('.pet_image').on('click','.del',function () {
+            $(this).parent().remove();
+            var len=$('.append').length;
+            if(len==0){
+                $('.trans_icon').removeClass('fl mr');
+                $('.trans_icon').addClass('middle');
+            }else if(len>8){
+                $('.trans_icon').attr('disabled',true);
+            }else {
+                $('.trans_icon').attr('disabled',false);
+            }
+        })
+    },
+    init: function () {
+        this.addImage();
+        this.deleteImage();
+    }
+};
+$(function () {
+   main.init();
+});

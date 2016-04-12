@@ -1,0 +1,57 @@
+html,body{
+    width: auto;
+    height:100%;
+    background-color: #E3E6EB;
+    position: relative;
+}
+
+header{
+    width: auto;
+    padding: 0 1rem 0 1rem;
+    height:2.5rem;
+    margin: 1rem 0 1rem 0;
+    text-align: center;
+}
+.tel_area{
+    width: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: inherit;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.phone{
+    width: 100%;
+    height:inherit;
+    border: none;
+    outline: none;
+}
+footer{
+    width: auto;
+    padding: 0 1rem 0 1rem;
+    height:2.5rem;
+
+}
+.btn{
+    width: 100%;
+    height:inherit;
+    background-color: #FF2A68;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 2.5rem;
+    color: #fff;
+    font-size: 1rem;
+    list-style-type: none;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+}
+.private_tips{
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.5rem;
+    color: #898C8F;
+}
+
