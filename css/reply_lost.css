@@ -84,3 +84,10 @@ footer{
     width: 50%;
 
 }
+.footer>span{
+  display: inline-block;
+  line-height: 2.5rem;
+}
+.footer>span:first-child>img{
+    width: 50%;
+}
