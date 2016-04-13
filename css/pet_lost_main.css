@@ -256,9 +256,28 @@ header{
 .b_title>span:first-child{
     line-height: 3.5rem !important;
 }
-.pet_poster_info{
-    border-top:1px solid #ccc ;
+.pet_poster_info {
+    border-top: 1px solid #ccc;
+}
+.pet_lost_info{
+    position: relative;
+}
+.clue{
+    position: absolute;
+    left: 0;
+    right: 3rem;
+    bottom: 8px;
+    display: block !important;
+    text-align: left !important;
+    height: 1rem;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
 .pet_image,.pet_lost_time{
     padding-right: 1rem;
+}
+.herf_color{
+    color: #00DAD5;
 }

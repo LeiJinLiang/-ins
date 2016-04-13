@@ -13,44 +13,53 @@
 <body>
     <header class="clearfix">
         <div class="h_l lable_font">寻找</div>
+        <div class="fr loc_annimal">猫</div>
         <div class=" pet_head "><img src="image/editor/cat.png"></div>
+        <div class="fr loc_annimal">狗</div>
         <div class=" pet_head "><img src="image/editor/dog.png"></div>
     </header>
     <section class="pet_detail part1">
          <ul>
              <li class="clearfix">
                  <span class="type lable_font">品种</span>
-                 <span class="name ">泰迪</span>
+                 <span class="select_area">
+                        <span class="name_s">请选择</span>
+                            <select class="chose" id="variety">
+                                <option value="">--请选择--</option>
+                                <option value="泰迪">泰迪</option>
+                                <option value="哈士奇">哈士奇</option>
+                            </select>
+                 </span>
                  <span class="lable"></span>
-                 <select class="chose hidden">
-                     <option>泰迪</option>
-                     <option>泰迪2</option>
-                     <option>泰迪3</option>
-                 </select>
+
              </li>
              <li class="clearfix">
                  <span class="type lable_font">毛色</span>
-                 <span class="name">棕色</span>
+                 <span class="select_area">
+                        <span class="name_s">请选择</span>
+                            <select class="chose" id="hair_color">
+                                <option value="">--请选择--</option>
+                                <option value="棕色">棕色</option>
+                                <option value="灰色">灰色</option>
+                            </select>
+                 </span>
                  <span class="lable"></span>
-                 <select class="chose hidden">
-                     <option>棕色</option>
-                     <option>棕色2</option>
-                     <option>棕色3</option>
-                 </select>
+
              </li>
              <li class="clearfix">
                  <span class="type lable_font">体长</span>
-                 <span class="name">110cm</span>
+                 <span class="select_area">
+                        <span class="name_s">请选择</span>
+                            <select class="chose" id="height">
+                                <option value="">--请选择--</option>
+                                <option value="110cm">110cm</option>
+                                <option value="130cm">130cm</option>
+                            </select>
+                 </span>
                  <span class="lable"></span>
-                 <select class="chose hidden">
-                     <option>110cm</option>
-                     <option>120cm</option>
-                     <option>130cm</option>
-                 </select>
              </li>
          </ul>
     </section>
-
     <section class="pet_image">
         <button  class="placeholder middle trans_icon container">
             <img src="image/h5/camera@2x.png">
@@ -62,7 +71,7 @@
         <ul>
             <li class="clearfix">
                 <span class="type lable_font">丢失时间</span>
-                <span class="name ">2016-04-05 12:00</span>
+                <span class="time_area"><input type="date" class="date" placeholder="请选择"><input type="time" class="time" placeholder="请选择"></span>
                 <span class="lable"></span>
             </li>
             <li class="clearfix">
@@ -84,9 +93,10 @@
         <span class="lable_circle">活泼</span>
         <span class="lable_circle">哈哈哈哈</span>
     </section>
+    <div class="clearfix">
     <section class="description">
         <p class="lable_font">描述</p>
-        <textarea class="textarea" placeholder="请输入描述" ></textarea>
+        <textarea class="textarea" placeholder="请输入描述" id="textarea" ></textarea>
     </section>
     <section class="pet_detail host_phone">
         <ul>
@@ -99,6 +109,7 @@
     </section>
     <div class="btn_area">
         <div class="btn">发布</div>
+    </div>
     </div>
 <script src="js/lib/node_modules/jquery/dist/jquery.min.js"></script>
 <script src="js/lib/utils.js"></script>

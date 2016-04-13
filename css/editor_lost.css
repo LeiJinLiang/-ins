@@ -24,7 +24,7 @@ header{
     border: 1px solid #ccc;
     border-radius:50%;
     margin-top: .75rem;
-    margin-left: 3rem;
+    margin-left: 2rem;
     background-color: #ccc;
     text-align: center;
 }
@@ -72,14 +72,15 @@ header{
     color: #C1C3C5;
 }
 .chose{
-    position: absolute;
-    left: 3rem;
-    right: 3rem;
     height: 2rem;
-    top:.5rem;
-    width: 70%;
+    width: 100%;
     opacity: 0.2;
+    display: block;
     background-color: inherit;
+    margin-top: -40px;
+    outline: none;
+    border: none;
+    opacity: 0;
 }
 .hidden{
     display: none;
@@ -151,6 +152,8 @@ header{
     -webkit-user-modify: read-write-plaintext-only;
     padding: .5rem 0 .5rem 0;
     color: #C1C3C5;
+    -webkit-transition: height 50ms;
+    display: block;
 }
 .host_phone{
     height:3rem !important;
@@ -160,7 +163,7 @@ header{
     height:2.5rem;
     position: relative;
     margin-top: 1rem;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
 }
 .btn{
     position: absolute;
@@ -227,4 +230,50 @@ header{
 }
 .mr{
     margin-right: 4.8%;
+}
+.tag{
+    color: #ff6894 !important;
+    border-color: #ff6894 !important;
+}
+.date,.time{
+    display: inline-block;
+    height: 2rem;
+    text-align: center;
+    border: none;
+    font-size: .8rem;
+    color: #C1C3C5;
+    /*border: 1px solid;*/
+    line-height: 2rem;
+    margin-top: 8px;
+}
+.date{
+    width: 65%;
+}
+.time{
+    width: 35%;
+}
+.time_area{
+    display: block;
+    position: absolute;
+    left: 66px;
+    right:0rem;
+    height:3rem;
+    top:0;
+}
+.select_area{
+    position: absolute;
+    left:3rem;
+    right: 1rem;
+    top:0;
+    height:2.5rem;
+    display: block;
+    text-align: right;
+}
+.loc_annimal{
+    line-height: 5.4rem;
+    margin-left: 1rem;
+    color: #898c8f;
+}
+.name_s{
+    color: #898c8f;
 }

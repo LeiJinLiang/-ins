@@ -1,27 +1,6 @@
 /**
  * Created by jinlei on 16/4/5.
  */
-$('.part1').find('li').on('click', function () {
-   $(this).find('.chose').removeClass('hidden');
-    $(this).find('.name').addClass('hidden');
-});
-$('.part1').find('.chose').on('change', function () {
-    $(this).addClass('hidden');
-    $(this).siblings('.name').removeClass('hidden');
-});
-$('.part1').find('.chose').on('blur', function () {
-    $(this).addClass('hidden');
-    $(this).siblings('.name').removeClass('hidden');
-});
-$(".textarea").focus(function(){
-    setTimeout(function(){
-        $(window).scrollTop(700);
-    },100);
-});
-$('header').find('.pet_head').bind('click', function () {
-   $(this).addClass('color');
-   $(this).siblings('.pet_head').removeClass('color');
-});
 
 var main={
     addImage: function () {
@@ -51,9 +30,45 @@ var main={
             }
         })
     },
+    selectTag: function () {
+        $('.lable_circle').on('click', function () {
+            $(this).toggleClass('tag');
+        });
+    },
+    selectValue: function (id) {
+        var ele=$('#'+id);
+        ele.on('change', function () {
+            $(this).parent().find('.name_s').text(ele.val());
+        });
+    },
+    selectAnimal: function () {
+        $('.pet_head').click(function () {
+            $(this).addClass('color');
+            $(this).siblings('.pet_head').removeClass('color');
+        });
+    },
+    autoTextarea: function (ele) {
+        var ele=document.getElementById(ele);
+        autoTextarea(ele);
+    },
+    //让输入框不要被键盘挡住
+    autoText: function () {
+        $("#textarea").focus(function(){
+            setTimeout(function(){
+                $(window).scrollTop($(window).height()+150);
+            },100);
+        });
+    },
     init: function () {
+        this.autoText();
+        this.autoTextarea('textarea');
         this.addImage();
         this.deleteImage();
+        this.selectTag();
+        this.selectValue('variety');
+        this.selectValue('hair_color');
+        this.selectValue('height');
+        this.selectAnimal();
     }
 };
 $(function () {
