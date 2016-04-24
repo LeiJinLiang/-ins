@@ -5,47 +5,56 @@
     <title>Title</title>
 </head>
 <body>
-<form id="theForm" method="POST" enctype="multipart/form-data" >
-    <input id="theFile" name="file" type="file"/>
-    <button id="theButton" type="submit">send 1</button>
+<a href="http://v.t.sina.com.cn/share/share.php?title=%E4%BD%A0%E5%A5%BD%20hello%20world" target="_blank">分享到微博</a>
+<form id="form0" enctype="multipart/form-data">
+
+            <input type="file" accept="image/*;capture=camera"  id="photo">
+
 </form>
 
-After you uploaded the file you can <a href="<YOUR_PRE_SIGNED_DOWNLOAD_URL_HERE>">download it here</a>
 <script type="text/javascript" src="js/lib/node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="js/lib/lrz.mobile.min.js"></script>
 <script>
-
-    $(function() {
-
-        $('#theForm').on('submit', sendFile);
-    });
-
-    function sendFile(e) {
-        e.preventDefault();
-
-        // get the reference to the actual file in the input
-        var theFormFile = $('#theFile').get()[0].files[0];
-
+    var fileUpload=function(base64Img){
         $.ajax({
-                    type: 'PUT',
-                    url: "",
-                    // Content type must much with the parameter you signed your URL with
-                    contentType: 'binary/octet-stream',
-                    // this flag is important, if not set, it will try to send data as a form
-                    processData: false,
-                    // the actual file is sent raw
-                    data: theFormFile
-                })
-                .success(function() {
-                    alert('File uploaded');
-                })
-                .error(function() {
-                    alert('File NOT uploaded');
-                    console.log( arguments);
-                });
+            url : "",
+            type : 'post',
+            data : {base64Img},
+            success: function(result){
 
-        return false;
-    });
+            },
+            error: function(){
+
+            }
+        });
     }
+    var photo = $('#photo');
+    photo.bind('change',function(){
+            // 也可以传入图片路径：lrz('../demo.jpg', ...
+            lrz(this.files[0], {
+                width:300,
+                // 压缩开始
+                before: function() {
+                    console.log('压缩开始');
+                },
+                // 压缩失败
+                fail: function(err) {
+                    console.error(err);
+                },
+                // 压缩结束（不论成功失败）
+                always: function() {
+                    console.log('压缩结束');
+                },
+                // 压缩成功
+                done: function (results) {
+                    // 你需要的数据都在这里，可以以字符串的形式传送base64给服务端转存为图片。
+                    console.log(results);
+                    fileUpload(results.base64);
+                }
+            });
+
+    })
+
 </script>
 </body>
 </html>

@@ -52,6 +52,7 @@ html,dody{
     padding-right: 1rem;
     padding-top: .2rem;
     padding-bottom: .2rem;
+    margin-right: .2rem;
 }
 .add_color{
     background-color: #FF6894;
@@ -174,6 +175,7 @@ html,dody{
     position: relative;
     width: 100%;
     margin-bottom: 1rem;
+    top:0;
 }
 .replay_msg{
   width: 20px;

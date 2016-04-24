@@ -1,7 +1,6 @@
 /**
  * Created by jinlei on 16/4/5.
  */
-
 var main={
     addImage: function () {
         $('.trans_icon').click(function () {
@@ -30,8 +29,15 @@ var main={
             }
         })
     },
+    getTag: function () {
+        Net.getTags(function(res){
+            for(var i=0;i<res.data.length;i++){
+                $('.other_info').append("<span class='lable_circle'>"+res.data[i]+"</span>");
+            }
+        });
+    },
     selectTag: function () {
-        $('.lable_circle').on('click', function () {
+        $('.other_info').on('click','.lable_circle',function () {
             $(this).toggleClass('tag');
         });
     },
@@ -59,16 +65,57 @@ var main={
             },100);
         });
     },
+    lost_post: function () {
+        var data = {};
+        data.accessToken = accessToken;
+        data.category = 'cat';
+        data.breed = 'Golden Hair111';
+        data.color = 'Black';
+        data.sizeDown = 110;
+        data.sizeUp = 120;
+        data.imageKeys = ['289182918','dhahdjahjd'];
+        data.tags = ['读卡贷记卡看','到家啊框架大卡接口'];
+        data.address = "上海市莲花路1758号";
+        data.time = new Date().getTime();
+        data.desc = "超市门口走失";
+        data.name = "金磊";
+        data.contact = ['13259998176'];
+        data.lon=10;
+        data.lat=100;
+        data=JSON.stringify(data);
+        $('.submit').bind('click', function () {
+            Net.post_lost(data, function (res) {
+
+            });
+        });
+    }
+    ,
+    submitInfo: function () {
+        $('.submit').bind('click', function () {
+            var category='cat';
+            var breed=$('#variety').val();
+            var color=$('#hair_color').val();
+            var height=$('#height').val();
+            console.log(category);
+            console.log(breed);
+            console.log(color);
+            console.log(height);
+
+        });
+    },
     init: function () {
         this.autoText();
         this.autoTextarea('textarea');
         this.addImage();
         this.deleteImage();
+        this.getTag();
         this.selectTag();
         this.selectValue('variety');
         this.selectValue('hair_color');
         this.selectValue('height');
         this.selectAnimal();
+        this.lost_post();
+        this.submitInfo();
     }
 };
 $(function () {

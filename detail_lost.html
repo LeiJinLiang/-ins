@@ -15,45 +15,43 @@
 <header>
     <div class="swiper-container vibanner">
         <div class="swiper-wrapper addBanner">
-                <div class="swiper-slide" style="height: 200px;">
-                    <div class="bannerImg" style="background-image: url('http://ww2.sinaimg.cn/mw690/63e5c1e1jw1f2m1ppbbf6j20lo0egwgy.jpg');"></div>
-                </div>
-                <div class="swiper-slide" style="height: 200px;">
-                    <div class="bannerImg" style="background-image: url('http://ww2.sinaimg.cn/mw690/63e5c1e1jw1f2m1ppbbf6j20lo0egwgy.jpg');"></div>
-                </div>
-                <div class="swiper-slide" style="height: 200px;">
-                    <div class="bannerImg" style="background-image: url('http://ww2.sinaimg.cn/mw690/63e5c1e1jw1f2m1ppbbf6j20lo0egwgy.jpg');"></div>
-                </div>
         </div>
         <div class="swiper-pagination"></div>
     </div>
+    <script type="template" id="banner-wrapper-tmp">
+        {{#each this}}
+            <div class="swiper-slide" style="height: 200px;">
+                <div class="bannerImg" style="background-image: url('{{url}}');"></div>
+            </div>
+        {{/each}}
+    </script>
 </header>
-<main>
+<main data-page="0" data-size="5" data-isfor="false">
   <section class="tips_info">
         <div class="lost_time clearfix">
             <span></span>
-            <span>丢失时间:<span class="exact_time">2016-02-14 12:11</span></span>
+            <span>丢失时间:<span class="exact_time"></span></span>
             <span>3天前</span>
         </div>
       <div class="lost_loc clearfix">
           <span></span>
-          <span>丢失地点:<span class="exact_loc">顾村公园 正大广场</span></span>
+          <span>丢失地点:<span class="exact_loc"></span></span>
           <span>3km</span>
       </div>
   </section>
   <section class="lost_lable">
-      <span class="lable_circle add_color">美短</span>
-      <span class="lable_circle">纯灰</span>
-      <span class="lable_circle add_color">100-110cm</span>
+      <!--<span class="lable_circle add_color">美短</span>-->
+      <!--<span class="lable_circle">纯灰</span>-->
+      <!--<span class="lable_circle add_color">100-110cm</span>-->
       <article class="lost_description">
-          Mac, 2岁美短，在正大广场 Moka Bros门口走失。耳朵上有已绝育缺口，刚剃过毛。脖子上有黑色项圈，吊有名字吊牌，上有我的电话。感谢大家提供线索。
+          <!--Mac, 2岁美短，在正大广场 Moka Bros门口走失。耳朵上有已绝育缺口，刚剃过毛。脖子上有黑色项圈，吊有名字吊牌，上有我的电话。感谢大家提供线索。-->
       </article>
   </section>
   <section class="lost_host_info">
-     <div class="host_lost_image fl" style="background-image: url('http://ww1.sinaimg.cn/mw690/4c56dd36jw1f2lslkfi3uj22c03404qr.jpg')"></div>
+     <div class="host_lost_image fl" ></div>
      <div class="host_detail fl">
-         <p>马林</p>
-         <p>于 2016-02-22 14:35 发布</p>
+         <p class="name"></p>
+         <p class="">于 <span class="publish_time"></span>发布</p>
      </div>
      <div class="host_phone fr"></div>
   </section>
@@ -82,9 +80,9 @@
       <article class="replay_item">
           <div class="item_title clearfix">
                 <div class="replay_head fl" style="background-image: url('http://ww1.sinaimg.cn/mw690/4c56dd36jw1f2lslkfi3uj22c03404qr.jpg')"></div>
-                <div class="replay_detail fl">
+                <div class="replay_detail fl ">
                     <p>马林</p>
-                    <p>我好像看到了！！</p>
+                    <p>我好像看到了！!</p>
                 </div>
                 <div class="replay_msg fr"></div>
           </div>
@@ -162,6 +160,7 @@
       </article>
   </section>
 </main>
+
 <footer class="clearfix">
     <div class="btn1 fl view_btn">
             <span class="view_logo fl"><img src="image/h5/petLostStatEye@2x.png"></span>
@@ -172,8 +171,12 @@
     <a href="reply_lost.html"><div class="btn fl replay_btn">回复</div></a>
     <div class="btn fl share_btn">分享</div>
 </footer>
-<script src="js/lib/node_modules/jquery/dist/jquery.min.js"></script>
-<script src="js/lib/node_modules/swiper/dist/js/swiper.jquery.min.js"></script>
+
+<script src="js/lib/node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
+<script src="js/lib/utils.js" type="text/javascript"></script>
+<script src="js/lib/net.js" type="text/javascript"></script>
+<script src="js/lib/handlebars-v3.0.3.js" type="text/javascript"></script>
+<script src="js/lib/node_modules/swiper/dist/js/swiper.jquery.min.js" type="text/javascript"></script>
 <script src="js/detail_lost.js" type="text/javascript"></script>
 </body>
 </html>

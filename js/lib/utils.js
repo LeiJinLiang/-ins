@@ -218,7 +218,6 @@ $.fn.serializeObject = function()
     });
     return o;
 };
-
 /**
  * 解析URL参数。
  *
@@ -275,7 +274,8 @@ Date.prototype.Format = function (fmt) { //author: meizz
  */
 $.ajaxSetup({
     xhrFields: {
-        withCredentials: true
+        withCredentials: false
     },
-    crossDomain: true
+    crossDomain: true,
+    contentType:'application/json'
 });
